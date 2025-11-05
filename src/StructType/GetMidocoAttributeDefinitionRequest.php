@@ -18,9 +18,9 @@ class GetMidocoAttributeDefinitionRequest extends AbstractStructBase
      * The MidocoSystemAttributeDefinition
      * Meta information extracted from the WSDL
      * - ref: MidocoSystemAttributeDefinition
-     * @var \Pggns\MidocoApi\WorkflowSD\StructType\AttributeDefinitionDTO|null
+     * @var \Pggns\MidocoApi\WorkflowSD\StructType\MidocoSystemAttributeDefinition|null
      */
-    protected ?\Pggns\MidocoApi\WorkflowSD\StructType\AttributeDefinitionDTO $MidocoSystemAttributeDefinition = null;
+    protected ?\Pggns\MidocoApi\WorkflowSD\StructType\MidocoSystemAttributeDefinition $MidocoSystemAttributeDefinition = null;
     /**
      * The orgunit
      * @var string|null
@@ -30,10 +30,10 @@ class GetMidocoAttributeDefinitionRequest extends AbstractStructBase
      * Constructor method for GetMidocoAttributeDefinitionRequest
      * @uses GetMidocoAttributeDefinitionRequest::setMidocoSystemAttributeDefinition()
      * @uses GetMidocoAttributeDefinitionRequest::setOrgunit()
-     * @param \Pggns\MidocoApi\WorkflowSD\StructType\AttributeDefinitionDTO $midocoSystemAttributeDefinition
+     * @param \Pggns\MidocoApi\WorkflowSD\StructType\MidocoSystemAttributeDefinition $midocoSystemAttributeDefinition
      * @param string $orgunit
      */
-    public function __construct(?\Pggns\MidocoApi\WorkflowSD\StructType\AttributeDefinitionDTO $midocoSystemAttributeDefinition = null, ?string $orgunit = null)
+    public function __construct(?\Pggns\MidocoApi\WorkflowSD\StructType\MidocoSystemAttributeDefinition $midocoSystemAttributeDefinition = null, ?string $orgunit = null)
     {
         $this
             ->setMidocoSystemAttributeDefinition($midocoSystemAttributeDefinition)
@@ -41,18 +41,18 @@ class GetMidocoAttributeDefinitionRequest extends AbstractStructBase
     }
     /**
      * Get MidocoSystemAttributeDefinition value
-     * @return \Pggns\MidocoApi\WorkflowSD\StructType\AttributeDefinitionDTO|null
+     * @return \Pggns\MidocoApi\WorkflowSD\StructType\MidocoSystemAttributeDefinition|null
      */
-    public function getMidocoSystemAttributeDefinition(): ?\Pggns\MidocoApi\WorkflowSD\StructType\AttributeDefinitionDTO
+    public function getMidocoSystemAttributeDefinition(): ?\Pggns\MidocoApi\WorkflowSD\StructType\MidocoSystemAttributeDefinition
     {
         return $this->MidocoSystemAttributeDefinition;
     }
     /**
      * Set MidocoSystemAttributeDefinition value
-     * @param \Pggns\MidocoApi\WorkflowSD\StructType\AttributeDefinitionDTO $midocoSystemAttributeDefinition
+     * @param \Pggns\MidocoApi\WorkflowSD\StructType\MidocoSystemAttributeDefinition $midocoSystemAttributeDefinition
      * @return \Pggns\MidocoApi\WorkflowSD\StructType\GetMidocoAttributeDefinitionRequest
      */
-    public function setMidocoSystemAttributeDefinition(?\Pggns\MidocoApi\WorkflowSD\StructType\AttributeDefinitionDTO $midocoSystemAttributeDefinition = null): self
+    public function setMidocoSystemAttributeDefinition(?\Pggns\MidocoApi\WorkflowSD\StructType\MidocoSystemAttributeDefinition $midocoSystemAttributeDefinition = null): self
     {
         $this->MidocoSystemAttributeDefinition = $midocoSystemAttributeDefinition;
         
